@@ -1,0 +1,48 @@
+:root {
+    --hug_me_pink: #F7C7D9;
+    --power_blue: #1C3DAB;
+    --love_red: #FC4D5C;
+    --soft_tears_blue: #D1ECEF;
+    --count_on_me_black: #1D1D1B;
+    --dreamy_white: #FFF5EB;
+  }
+
+  @font-face {
+    font-family: "obviously-wide", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    src: url(https://use.typekit.net/fdn8esl.css);
+  }
+
+  @font-face {
+    font-family: "archivo", sans-serif;
+    font-variation-settings: "wdth" 100, "wght" 600;
+    src: url(https://use.typekit.net/fdn8esl.css);
+  }
+
+  @font-face {
+    font-family: "architects-daughter";
+    font-size: 16px;
+    src: url(../fonts/architectsdaughter-webfont.woff2);
+  }
+  
+  body {
+    background-color: var(--dreamy_white);
+  }
+  
+  h1, h2 {
+    color: var(--love_red);
+    font-family: "obviously-wide";
+  }
+
+  h3{
+font-family: "archivo";
+  }
+
+  p{
+    font-family: "architects-daughter";
+  }
+
+
+  
+  
