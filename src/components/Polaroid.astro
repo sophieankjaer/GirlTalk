@@ -1,0 +1,33 @@
+<article>
+    <img src="" alt="" />
+    <div class="polaroid">
+      <img src="img/IMG_0963.jpeg" alt="" />
+      <h3 class="name">Navn</h3>
+    </div>
+  </article>
+
+  <style>
+.polaroid {
+  background-color: white;
+  padding: 30px;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.polaroid img {
+  display: block;
+  width: 100%;
+}
+
+.polaroid .name {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.polaroid:hover .name {
+  visibility: visible; 
+}
+  </style>
