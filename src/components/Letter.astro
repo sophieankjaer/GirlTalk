@@ -1,0 +1,59 @@
+<article>
+    <img src="" alt="" />
+    <section class="first">
+      <p>Alder:</p>
+      <p>Kælenavn:</p>
+      <p>Skole/Job:</p>
+    </section>
+    <section class="secound">
+      <p>Hvad ville du sige til dit yngre jeg?:</p>
+      <p>Fun fact:</p>
+      <p>Når jeg er ked af det hjælper det at:</p>
+      <p>3 ting på en øde ø:</p>
+      <p>Guilty pleasure:</p>
+      <p>Det bedste ved at være hos Girl Talk:</p>
+    </section>
+  </article>
+
+  <style>
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 35px;
+  padding: 60px;
+}
+
+.p {
+  font-weight: bolder;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.secound p {
+  width: calc(50% - 10px);
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .first {
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .secound {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .secound p {
+    width: calc(50% -20px);
+  }
+}
+  </style>
